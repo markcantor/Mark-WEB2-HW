@@ -21,12 +21,25 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/header\/logo 2.jpg" : {
+    "\/deploy\/img\/background\/color1.jpg" : {
       "ft" : 16384,
-      "iS" : 11482,
+      "iS" : 24591,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/logo 2.jpg",
+      "oAP" : "\/deploy\/img\/background\/color1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/header\/logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 4910,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/logo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -278,6 +291,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/search.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/color1" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/color1",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
