@@ -8,5 +8,16 @@
     grid-template-areas: ". search .";
     >div{
         grid-area: search;
+        @include xl{
+            display: grid;
+            grid-template-columns: auto 1200px auto;
+            grid-template-areas: ". search-content .";
+
+            form{
+                @include xl{
+                    grid-area: search-content;
+                }
+            }
+        }
     }
 }

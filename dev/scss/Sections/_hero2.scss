@@ -3,7 +3,42 @@
 ============= */
 
 #hero2{
-    img{
-        width: 100%;
+
+ul{
+    @include md{
+        display: grid;
+        grid-template-columns: 50% auto;
     }
+
+    @include xl{
+        grid-template-columns: 70% auto;
+        grid-template-areas: "h2-1 h2-2"
+                             "h2-1 h2-3";
+    }
+
+
+    li{
+        img{
+            width: 100%;
+        }
+    }
+
+    #h2-1{
+        @include xl{
+            grid-area: h2-1;
+        }
+    }
+
+    #h2-2{
+        @include xl{
+            grid-area: h2-2;
+        }
+    }
+
+    #h2-3{
+        @include xl{
+            grid-area: h2-3;
+        }
+    }
+}
 }
