@@ -1,12 +1,12 @@
 /* =============
-    Header
+    Planning
 ============= */
 
-header{
+#planning{
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
+    grid-template-areas: ". planning .";
     >div{
-        grid-area: header;
+        grid-area: planning;
     }
 }

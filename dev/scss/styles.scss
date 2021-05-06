@@ -1,8 +1,5 @@
 @charset 'utf-8';
 
-
-
-
 // Helpers Styles
 @import "helpers/_mixins";
 @import "helpers/_variables";
@@ -22,4 +19,8 @@
 @import "layout/_footer";
 
 // Sections Styles
-@import "base/_main"; 
+@import "sections/_search";
+@import "sections/_hero";
+@import "sections/_planning";
+@import "sections/_hero2";
+@import "sections/_new";

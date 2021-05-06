@@ -253,20 +253,20 @@
       "oAP" : "\/design\/Homework.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/hero-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
-      "oF" : 0
-    },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/hero2.html",
       "oF" : 0
     },
     "\/dev\/content\/new.kit" : {
@@ -291,14 +291,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/search.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/color1" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/color1",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -361,20 +353,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/base\/_main.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_main.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -506,7 +484,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/Sections\/_hero-2.scss" : {
+    "\/dev\/scss\/Sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -514,13 +492,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/Sections\/_hero-2.css",
+      "oAP" : "\/dev\/scss\/Sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/Sections\/_hero.scss" : {
+    "\/dev\/scss\/Sections\/_hero2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -528,13 +506,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/Sections\/_hero.css",
+      "oAP" : "\/dev\/scss\/Sections\/_hero2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/Sections\/_new.scss" : {
+    "\/dev\/scss\/Sections\/_new.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -542,13 +520,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/Sections\/_new.css",
+      "oAP" : "\/dev\/scss\/Sections\/_new.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/Sections\/_planning.scss" : {
+    "\/dev\/scss\/Sections\/_planning.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -556,7 +534,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/Sections\/_planning.css",
+      "oAP" : "\/dev\/scss\/Sections\/_planning.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/Sections\/_search.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/Sections\/_search.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

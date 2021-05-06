@@ -3,8 +3,8 @@
 ============= */
 ul{
     margin: 0;
-    padding: 50;
-   
-    <ul style="list-style-type: none;">
-    <li style="list-style-type: none;">
+    padding: 0;
+    li{
+        list-style: none;
+    }
 }
