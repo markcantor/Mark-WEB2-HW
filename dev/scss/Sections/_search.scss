@@ -4,8 +4,9 @@
 
 #search{
     display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". search .";
+    grid-template-rows: 16px;
+    grid-template-areas: "";
+    margin-left: 16px;
     >div{
         grid-area: search;
         @include xl{

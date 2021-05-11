@@ -4,8 +4,8 @@
 
 header{
     display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
+    grid-template-columns: 0px auto 16px;
+    grid-template-areas: "16px header auto";
     >div{
         grid-area: header;
     }

@@ -388,8 +388,8 @@ button {
 ============= */
 header {
   display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
+  grid-template-columns: 0px auto 16px;
+  grid-template-areas: "16px header auto";
 }
 header > div {
   grid-area: header;
@@ -446,8 +446,9 @@ footer > div {
 ============= */
 #search {
   display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". search .";
+  grid-template-rows: 16px;
+  grid-template-areas: "";
+  margin-left: 16px;
 }
 #search > div {
   grid-area: search;
@@ -470,6 +471,8 @@ footer > div {
 ============= */
 #hero img {
   width: 100%;
+  margin-top: 16px;
+  margin: auto hero auto;
 }
 @media (min-width: 768px) {
   #hero section {
@@ -616,4 +619,14 @@ footer > div {
   #new > div ul #n5 {
     grid-area: n5;
   }
+}
+
+/* =============
+    zebra
+============= */
+#zebra {
+  display: grid;
+  grid-template-columns: 233px auto;
+  grid-template-rows: 79px 16px auto;
+  padding: 16px auto;
 }
